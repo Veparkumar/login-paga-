@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+.body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-color: #da99ff;
+    background-image: radial-gradient(at 88% 0%);
+    color: #000;
+    font-family: 'ubuntu';
+}
+
+.login{
+    position: fixed;
+    z-index: 3;
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: #fff;
+    text-align: center;
+}
+
+.login > img{
+    width: 120px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.login > h2{
+    font-size: 36px;
+    margin: 0 0 25px;
+}
+
+.login > h3{
+    color: rgba(0, 0, 0, 0);
+    margin: 0 0 6px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.login-form{
+    display: grid;
+    gap: 30px;
+    place-items: center;
+
+}
